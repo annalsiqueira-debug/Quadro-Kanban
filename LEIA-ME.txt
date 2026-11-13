@@ -1,0 +1,24 @@
+MEMO — versão HTML para incorporar no Google Sites
+
+CONTEÚDO
+- index.html: versão web do projeto Memo.
+- assets/: imagens e áudios usados pelo aplicativo.
+
+COMO PUBLICAR
+1. Extraia o ZIP no computador.
+2. Publique a pasta memo_site em um serviço de hospedagem estática, como Netlify ou GitHub Pages.
+   Importante: mantenha a pasta assets junto do index.html.
+3. Copie o endereço público gerado pela hospedagem.
+4. No Google Sites, abra a página em que deseja colocar o Memo.
+5. Vá em Inserir > Incorporar > Por URL.
+6. Cole o endereço público e clique em Inserir.
+7. Ajuste o tamanho do quadro incorporado. Para a proporção original, use um espaço largo (16:9).
+
+OBSERVAÇÕES
+- O Google Sites não executa um arquivo .html local diretamente como um site publicado.
+  Por isso, primeiro é necessário hospedar a pasta e depois incorporar o link.
+- O botão “Sair” mostra uma mensagem, porque navegadores normalmente impedem que uma página
+  feche a própria aba.
+- A música começa após a primeira interação, pois os navegadores bloqueiam áudio automático.
+- Esta é uma adaptação de Python/Pygame para HTML, CSS e JavaScript; não é uma conversão
+  automática do arquivo Python.
